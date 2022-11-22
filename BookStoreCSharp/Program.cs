@@ -3,8 +3,6 @@
 
 // Dichiaro le variabili
 
-using System.Xml.Linq;
-
 string titolo = "Clean Code";
 string autore = "Robert C. Martin";
 long isbn = 9780132350884;
@@ -21,8 +19,8 @@ string copertinaFlessibile = "SI";
 // Stampo le variabili in console
 
 Console.WriteLine("--------------- IL LIBRO DI OGGI: " + titolo + "di " + autore + "----------------");
-Console.WriteLine("INFORMAZIONI GENERICHE:");
 Console.WriteLine("");
+Console.WriteLine("INFORMAZIONI GENERICHE:");
 Console.WriteLine("ISBN: " + isbn);
 Console.WriteLine("Numero delle pagine: " + numeroPagine + " pagine");
 Console.WriteLine("Peso del libro: " + pesoLibro + " gr");
