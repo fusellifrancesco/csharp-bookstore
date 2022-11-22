@@ -18,7 +18,7 @@ string copertinaFlessibile = "SI";
 
 // Stampo le variabili in console
 
-Console.WriteLine("--------------- IL LIBRO DI OGGI: " + titolo + "di " + autore + "----------------");
+Console.WriteLine("--------------- IL LIBRO DI OGGI: " + titolo + " di " + autore + "----------------");
 Console.WriteLine("");
 Console.WriteLine("INFORMAZIONI GENERICHE:");
 Console.WriteLine("ISBN: " + isbn);
